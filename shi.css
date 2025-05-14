@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: iDroid;
-    src: url('arquivo/fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
 }
 
 @font-face {
     font-family: Bebas Neue;
-    src: url(arquivo/fontes/BebasNeue-Regular.ttf) format(truetype);
+    src: url(fontes/BebasNeue-Regular.ttf) format(truetype);
 }
 
 :root{
@@ -129,7 +129,7 @@ h1{
 }
 
 h1#titulo{
-    font-family: iDroid;
+    font-family: var(--fonte-android);
     font-size: 1.8em;
     color: #063D1E;
     padding-left: 20px;
