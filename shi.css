@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+/*linkE = link Externo*/
+/*linkI = link Interno*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 @font-face {
     font-family: iDroid;
     src: url('fontes/idroid.otf') format('opentype');
@@ -32,7 +40,7 @@ header{
     text-align: center;
     background-image: linear-gradient(to bottom, #33b86f, #1f6e43, #063D1E);
     margin: -8px -8px -16px -8px;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -87,6 +95,7 @@ main{
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     margin: auto;
+    margin-bottom: 1890px;
     background-color: white;
 }
 
@@ -99,9 +108,11 @@ main h2{
     font-family: var(--fonte-android);
     font-weight: normal;
     color: #063D1E;
-    padding-left: 15px;
     background-image: linear-gradient(to right, var(--cor2), white);
+    padding-left: 15px;
     margin-left: 10px;
+    margin-bottom: 16px;
+    margin-top: 24px;
 }
 
 main h3{
@@ -126,6 +137,7 @@ h1{
     font-family: var(--fonte-android);
     color: white;
     font-size: 40px;
+    padding-bottom: 5px;
 }
 
 h1#titulo{
@@ -146,6 +158,7 @@ p{
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 15px 0px;
 }
 
 a.linkE{
@@ -191,9 +204,8 @@ div.video > iframe{
 main aside{
     background-color: #C5EBD6;
     border-radius: 12px;
-    margin-right: 15px;
-    margin-left: 15px;
-    padding-bottom: 3px;
+    margin: 25px 15px 9px 15px;
+    padding-bottom: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.247);
 }
 
@@ -209,11 +221,11 @@ aside > ul{
     list-style-type: '\2714\0020\0020';
     columns: 2;
     list-style-position: inside;
+    padding-bottom: 3px;
 }
 
 footer{
     background-color: #063D1E;
-    margin-top: 1900px;
     margin-right: -8px;
     margin-left: -8px;
 }
